@@ -5,7 +5,8 @@ public class Main
 {
 	public static void main (String[] args)
 	{
-		Create3dSudoku cs = new Create3dSudoku (9);
-		cs.init();
+		Create3dSudokuSimpleBacktracking cssb =
+			new Create3dSudokuSimpleBacktracking ();
+    cssb.create3dSudoku ();
 	}
 }
