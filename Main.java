@@ -7,6 +7,6 @@ public class Main
 	{
 		Create3dSudokuSimpleBacktracking cssb =
 			new Create3dSudokuSimpleBacktracking ();
-    cssb.create3dSudoku ();
+		cssb.create3dSudoku ();
 	}
 }
