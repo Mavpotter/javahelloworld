@@ -35,10 +35,16 @@ public class Create3dSudokuSimpleBacktracking
 	 */
 	public void create3dSudoku ()
 	{
-		if (backtrack (0, 0, 0))
-			print3dSudoku ();
-		else
+		if (!backtrack (0, 0, 0))
 			System.err.println ("ERROR: could not create a 3d-Sudoku!!!");
+	}
+
+	/**
+	 * Returns the 3d-Sudoku.
+	 */
+	public int[][][] get3dSudoku()
+	{
+		return _3dSudoku;
 	}
 
 	private void init ()
